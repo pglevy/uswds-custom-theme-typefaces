@@ -1,0 +1,13 @@
+image:
+  file: Dockerfile
+tasks:
+  - name: Start Server
+    init: npm install && bundle install && gp sync-done server
+    command: npm start
+  - name: Watch SASS
+    init: gp sync-await server
+    command: npx gulp watch
+    openMode: tab-after
+ports:
+  - port: 4000
+    onOpen: open-browser

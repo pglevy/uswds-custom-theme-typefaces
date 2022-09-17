@@ -1,0 +1,15 @@
+# Set a plain language title for the site.
+title: USWDS Clean Install
+
+# Write a short description for the site. This is used for "meta description."
+description: Working installation of USWDS you can view on GitHub Pages or edit on Gitpod
+
+# Enable for live hosting on GitHub Pages
+# This should match the name of your GitHub repository, along with a leading forward slash (/).
+# baseurl: /uswds-clean-install
+
+# Set the language for the site. Used for "html lang." Default is English.
+lang: en
+
+# Avoid GitHub API authentication when building locally.
+github: [metadata]
