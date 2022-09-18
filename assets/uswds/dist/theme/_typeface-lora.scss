@@ -1,0 +1,36 @@
+@use "uswds-core" with (
+    $theme-typeface-tokens: (
+        lora: (
+            display-name: "Lora",
+            cap-height: 350px,
+        )
+    ),
+    $theme-font-type-serif: "lora",
+    $theme-font-role-heading: "serif",
+    $theme-font-serif-custom-stack: '"Iowan Old Style", "Apple Garamond", Baskerville, "Times New Roman", "Droid Serif", Times, "Source Serif Pro", serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"',
+    $theme-font-serif-custom-src: (
+        dir: 'custom/lora',
+        roman: (
+            400: 'Lora-Regular',
+            500: 'Lora-Medium',
+            600: 'Lora-SemiBold',
+            700: 'Lora-Bold'
+        ),
+        italic: (
+            400: 'Lora-Italic',
+            500: 'Lora-MediumItalic',
+            600: 'Lora-SemiBoldItalic',
+            700: 'Lora-BoldItalic'
+        ),
+    ),
+    $theme-font-weight-thin: false,
+    $theme-font-weight-light: false,
+    $theme-font-weight-normal: 400,
+    $theme-font-weight-medium: 500,
+    $theme-font-weight-semibold: 600,
+    $theme-font-weight-bold: 700,
+    $theme-body-font-family: "serif",
+    $theme-body-font-size: "md",
+    $theme-body-line-height: 5,
+    $theme-style-body-element: true,
+);
