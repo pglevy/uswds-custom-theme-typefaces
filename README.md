@@ -4,7 +4,7 @@ The purpose of this project is to provide theme settings and related files to ma
 
 ## Check it out
 
-1. [Open pglevy/uswds-theme-typefaces in Gitpod](https://gitpod.io/#https://github.com/pglevy/uswds-theme-typefaces) to run the project.
+1. [Open uswds-custom-theme-typeface-tokens in Gitpod](https://gitpod.io/#https://github.com/pglevy/uswds-custom-theme-typeface-tokens) to run the project.
 
 1. Uncomment one of these @forward statements in `assets/uswds/dist/theme/styles.scss` and refresh the preview site to see the site with that typeface.
 
