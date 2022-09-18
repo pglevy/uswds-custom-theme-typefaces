@@ -1,0 +1,39 @@
+@use "uswds-core" with (
+    $theme-typeface-tokens: (
+        poppins: (
+            display-name: "Poppins",
+            cap-height: 349px,
+        )
+    ),
+    $theme-font-type-sans: "poppins",
+    $theme-font-role-heading: "sans",
+    $theme-font-sans-custom-stack: '-apple-system, BlinkMacSystemFont, "avenir next", avenir, "segoe ui", "helvetica neue", helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;',
+    $theme-font-sans-custom-src: (
+        dir: 'custom/poppins',
+        roman: (
+            100: 'Poppins-Thin',
+            200: 'Poppins-ExtraLight',
+            300: 'Poppins-Light',
+            400: 'Poppins-Regular',
+            500: 'Poppins-Medium',
+            600: 'Poppins-SemiBold',
+            700: 'Poppins-Bold',
+            800: 'Poppins-ExtraBold',
+            900: 'Poppins-Black',
+        ),
+        italic: (
+            100: 'Poppins-ThinItalic',
+            200: 'Poppins-ExtraLightItalic',
+            300: 'Poppins-LightItalic',
+            400: 'Poppins-Italic',
+            500: 'Poppins-MediumItalic',
+            600: 'Poppins-SemiBoldItalic',
+            700: 'Poppins-BoldItalic',
+            800: 'Poppins-ExtraBoldItalic',
+            900: 'Poppins-BlackItalic',
+        ),
+    ),
+    $theme-generate-all-weights: true,
+    $theme-body-font-size: "md",
+    $theme-style-body-element: true
+);
