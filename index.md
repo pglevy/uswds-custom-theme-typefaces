@@ -9,6 +9,8 @@ The page heading communicates the main focus of the page. Make your
 page heading descriptive and keep it succinct.
 {: .usa-intro}
 
+<div class="measure-4" markdown="1">
+
 ## Second-level heading
 
 These headings introduce, respectively, sections and subsections
@@ -36,3 +38,5 @@ mentioned, to display the sub-navigation of a given page.
 
 Read the full documentation on our side navigation on the component
 page.
+
+</div>
