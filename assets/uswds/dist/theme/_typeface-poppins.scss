@@ -7,7 +7,7 @@
     ),
     $theme-font-type-sans: "poppins",
     $theme-font-role-heading: "sans",
-    $theme-font-sans-custom-stack: '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"',
+    $theme-font-sans-custom-stack: '-apple-system, BlinkMacSystemFont, "avenir next", avenir, "segoe ui", "helvetica neue", helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;',
     $theme-font-sans-custom-src: (
         dir: 'custom/poppins',
         roman: (
