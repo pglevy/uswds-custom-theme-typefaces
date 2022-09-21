@@ -28,6 +28,7 @@ If you're not using other theme settings, you can alternatively add one of these
 // @forward "typeface-libre-baskerville";
 // @forward "typeface-lora";
 // @forward "typeface-poppins";
+@forward "uswds-theme";
 @forward "uswds";
 @forward "uswds-theme-custom-styles";
 ```
