@@ -1,0 +1,43 @@
+@use "uswds-core" with (
+// Copy everything between the comments into your _uswds-theme.scss file or add a reference to your styles.scss file using an @forward statement.
+    $theme-typeface-tokens: (
+        noto-sans: (
+            display-name: "Noto Sans",
+            cap-height: 357px,
+        )
+    ),
+    $theme-font-type-sans: "noto-sans",
+    $theme-font-role-heading: "sans",
+    $theme-font-sans-custom-stack: '-apple-system, BlinkMacSystemFont, "avenir next", avenir, "segoe ui", "helvetica neue", helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif',
+    $theme-font-sans-custom-src: (
+        dir: 'custom/noto-sans',
+        roman: (
+            100: 'NotoSans-Thin',
+            200: 'NotoSans-ExtraLight',
+            300: 'NotoSans-Light',
+            400: 'NotoSans-Regular',
+            500: 'NotoSans-Medium',
+            600: 'NotoSans-SemiBold',
+            700: 'NotoSans-Bold',
+            800: 'NotoSans-ExtraBold',
+            900: 'NotoSans-Black',
+        ),
+        italic: (
+            100: 'NotoSans-ThinItalic',
+            200: 'NotoSans-ExtraLightItalic',
+            300: 'NotoSans-LightItalic',
+            400: 'NotoSans-Italic',
+            500: 'NotoSans-MediumItalic',
+            600: 'NotoSans-SemiBoldItalic',
+            700: 'NotoSans-BoldItalic',
+            800: 'NotoSans-ExtraBoldItalic',
+            900: 'NotoSans-BlackItalic',
+        ),
+    ),
+    $theme-generate-all-weights: true,
+    $theme-body-font-family: "sans",
+    $theme-body-font-size: "md",
+    $theme-body-line-height: 5,
+    $theme-style-body-element: true,
+// Copy everything between the comments into your _uswds-theme.scss file or add a reference to your styles.scss file using an @forward statement.
+);
