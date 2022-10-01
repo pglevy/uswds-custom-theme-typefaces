@@ -1,3 +1,11 @@
+```
+# Welcome Hacktoberfest 2022 Participants! 👋
+
+This project is suited for designers and frontend developers who are interested in typography and design systems. It’s particularly relevant if you’re a designer looking to understand more about the code side of design systems, and you want to make it easier for public services to use more distinctive typography on their websites.
+
+I just started this project as a learning exercise for myself, but then I decided to open it up to Hacktoberfest contributions. So let’s learn together!
+```
+
 # USWDS Custom Theme Typeface Tokens
 The purpose of this project is to provide theme settings and related files to make it easier to incorporate some of the best [Google Fonts](https://fonts.google.com/) typefaces into your [U.S. Web Design System](https://designsystem.digital.gov/) sites and expand the typographic diversity of the gov site ecosystem
 
