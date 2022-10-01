@@ -5,7 +5,7 @@
 > I just started this project as a learning exercise for myself, but then I decided to open it up to Hacktoberfest contributions. So let’s learn together!
 > 
 
-# USWDS Custom Theme Typeface Tokens
+# USWDS Custom Theme Typefaces
 The purpose of this project is to provide theme settings and related files to make it easier to incorporate some of the best [Google Fonts](https://fonts.google.com/) typefaces into your [U.S. Web Design System](https://designsystem.digital.gov/) sites and expand the typographic diversity of the gov site ecosystem
 
 
