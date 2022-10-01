@@ -23,6 +23,9 @@ Here's how to add a new typeface to this project:
     - $theme-font-XXX-custom-stack
     - $theme-generate-all-weights (or individual weights if there is a limited set available)
     - Optionally include $theme-body-font-XXX settings to make it easier to preview.
+1. Test it on Gitpod.
+    - Run the project to make sure you can use the theme file and everything works as expected.
+    - For example, you can set `$theme-font-type-sans` or `$theme-font-type-sans-serif` to the new typeface token and confirm that the site rebuilds and renders with the new font.
 1. Create a new pull request with the name of the font that includes the following:
     - settings file
     - font files (ttf, woff, woff2)
