@@ -16,6 +16,8 @@ The purpose of this project is to provide theme settings and related files to ma
 @forward "uswds-theme-custom-styles";
 ```
 
+You can also view the type specimen page, which is currently the [homepage for the compiled site](https://pglevy.github.io/uswds-custom-theme-typefaces/) hosted here on GitHub Pages.
+
 ## How to add to your project
 
 ### 1. Copy settings tokens
