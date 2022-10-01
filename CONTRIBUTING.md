@@ -6,13 +6,15 @@ Here's how to add a new typeface to this project:
     - You at least need the .ttf files.
     - Variable fonts should also include some "static" files.
 1. Install the font on your machine.
-1. Use the Sketch template to measure the height of the capital `N` in pixels.
+1. Use the Sketch template ([TODO](https://github.com/pglevy/uswds-custom-theme-typefaces/issues/8)) to measure the height of the capital `N` in pixels.
     - Note the version of Sketch and your operating system used measure the cap-height.
 1. Use [google-webfonts-helper](https://google-webfonts-helper.herokuapp.com/fonts) to generate the `.woff` and `.woff2` web font files.
     - Generate all available weights since unneeded ones can be disabled with the theme settings.
 1. Rename the `.woff` and `.woff2` files according to the Google Fonts naming convention: `FontName-FontWeight.xxx` (Title case with no spaces and name and weight separated by a hyphen).
     - You can discard the other file formats.
+    - Put the files here in the repo: `assets/uswds/dist/fonts/custom/font-name/`
 1. Create a settings file using this naming format: `_typeface-font-name.scss`
+    - Put here in the repo: `assets/uswds/dist/theme/`
 1. Set the following theme tokens:
     - $theme-typeface-tokens
     - $theme-font-type-XXX
