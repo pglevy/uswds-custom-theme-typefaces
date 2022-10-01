@@ -1,10 +1,10 @@
 # USWDS Custom Theme Typeface Tokens
-The purpose of this project is to provide theme settings and related files to make it easier to incorporate some of the best Google Fonts typefaces into your USWDS sites and expand the typographic diversity of the gov site ecosystem
+The purpose of this project is to provide theme settings and related files to make it easier to incorporate some of the best [Google Fonts](https://fonts.google.com/) typefaces into your [U.S. Web Design System](https://designsystem.digital.gov/) sites and expand the typographic diversity of the gov site ecosystem
 
 
 ## Check it out
 
-1. [Open uswds-custom-theme-typeface-tokens in Gitpod](https://gitpod.io/#https://github.com/pglevy/uswds-custom-theme-typeface-tokens) to run the project.
+1. [Open uswds-custom-theme-typefaces in Gitpod](https://gitpod.io/#https://github.com/pglevy/uswds-custom-theme-typefaces) to run the project.
 
 1. Uncomment one of these @forward statements in `assets/uswds/dist/theme/styles.scss` and refresh the preview site to see the site with that typeface.
 
