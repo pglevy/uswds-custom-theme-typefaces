@@ -1,0 +1,43 @@
+@use "uswds-core" with (
+// Copy everything between the comments into your _uswds-theme.scss file or add a reference to your styles.scss file using an @forward statement.
+    $theme-typeface-tokens: (
+        work-sans: (
+            display-name: "Work Sans",
+            cap-height: 357px,
+        )
+    ),
+    $theme-font-type-sans: "work-sans",
+    $theme-font-role-heading: "sans",
+    $theme-font-sans-custom-stack: '-apple-system, BlinkMacSystemFont, "avenir next", avenir, "segoe ui", "helvetica neue", helvetica, Cantarell, Ubuntu, roboto, work, arial, sans-serif',
+    $theme-font-sans-custom-src: (
+        dir: 'custom/work-sans',
+        roman: (
+            100: 'WorkSans-Thin',
+            200: 'WorkSans-ExtraLight',
+            300: 'WorkSans-Light',
+            400: 'WorkSans-Regular',
+            500: 'WorkSans-Medium',
+            600: 'WorkSans-SemiBold',
+            700: 'WorkSans-Bold',
+            800: 'WorkSans-ExtraBold',
+            900: 'WorkSans-Black',
+        ),
+        italic: (
+            100: 'WorkSans-ThinItalic',
+            200: 'WorkSans-ExtraLightItalic',
+            300: 'WorkSans-LightItalic',
+            400: 'WorkSans-Italic',
+            500: 'WorkSans-MediumItalic',
+            600: 'WorkSans-SemiBoldItalic',
+            700: 'WorkSans-BoldItalic',
+            800: 'WorkSans-ExtraBoldItalic',
+            900: 'WorkSans-BlackItalic',
+        ),
+    ),
+    $theme-generate-all-weights: true,
+    $theme-body-font-family: "sans",
+    $theme-body-font-size: "md",
+    $theme-body-line-height: 5,
+    $theme-style-body-element: true,
+// Copy everything between the comments into your _uswds-theme.scss file or add a reference to your styles.scss file using an @forward statement.
+);
