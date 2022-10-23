@@ -13,3 +13,6 @@ in the form $setting: value,
 //    $setting: value
 //  );
 //
+ @use "uswds-core" with (
+    $theme-font-type-sans: work-sans,
+ );
