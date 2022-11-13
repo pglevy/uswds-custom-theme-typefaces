@@ -1,0 +1,35 @@
+@use "uswds-core" with (
+    $theme-typeface-tokens: (
+        playfair: (
+            display-name: "Playfair",
+            cap-height: 353px,
+        )
+    ),
+    $theme-font-type-serif: "playfair",
+    $theme-font-role-heading: "serif",
+    $theme-font-serif-custom-stack: '"Iowan Old Style", "Apple Garamond", Baskerville, "Times New Roman", "Droid Serif", Times, "Source Serif Pro", serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"',
+    $theme-font-serif-custom-src: (
+        dir: 'custom/playfair',
+        roman: (
+            400: 'PlayfairDisplay-Regular',
+            500: 'PlayfairDisplay-Medium',
+            600: 'PlayfairDisplay-SemiBold',
+            700: 'PlayfairDisplay-Bold',
+            800: 'PlayfairDisplay-ExtraBold',
+            900: 'PlayfairDisplay-Black'
+        ),
+        italic: (
+            400: 'PlayfairDisplay-Italic',
+            500: 'PlayfairDisplay-MediumItalic',
+            600: 'PlayfairDisplay-SemiBoldItalic',
+            700: 'PlayfairDisplay-BoldItalic',
+            800: 'PlayfairDisplay-ExtraBoldItalic',
+            900: 'PlayfairDisplay-BlackItalic'
+        ),
+    ),
+    $theme-generate-all-weights: true,
+    $theme-body-font-family: "serif",
+    $theme-body-font-size: "lg",
+    $theme-body-line-height: 5,
+    $theme-style-body-element: true
+);
