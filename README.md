@@ -47,6 +47,7 @@ Included:
 - Libre Baskerville
 - Lora
 - Noto Sans
+- Playfair Display
 - Poppins
 - Work Sans
 
@@ -55,7 +56,6 @@ Planned:
 - Inter
 - Lato
 - Noto Serif
-- Playfair Display
 
 ## Helpful Tools
 
