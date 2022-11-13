@@ -1,8 +1,9 @@
 @use "uswds-core" with (
+// Copy everything between the comments into your _uswds-theme.scss file or add a reference to your styles.scss file using an @forward statement.
     $theme-typeface-tokens: (
         libre-baskerville: (
             display-name: "Libre Baskerville",
-            cap-height: 385px,
+            cap-height: 385px
         )
     ),
     $theme-font-type-serif: "libre-baskerville",
@@ -27,5 +28,6 @@
     $theme-body-font-family: "serif",
     $theme-body-font-size: "lg",
     $theme-body-line-height: 5,
-    $theme-style-body-element: true,
+    $theme-style-body-element: true
+// Copy everything between the comments into your _uswds-theme.scss file or add a reference to your styles.scss file using an @forward statement.
 );

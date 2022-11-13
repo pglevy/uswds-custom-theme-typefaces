@@ -1,8 +1,9 @@
 @use "uswds-core" with (
+// Copy everything between the comments into your _uswds-theme.scss file or add a reference to your styles.scss file using an @forward statement.
     $theme-typeface-tokens: (
         lora: (
             display-name: "Lora",
-            cap-height: 350px,
+            cap-height: 350px
         )
     ),
     $theme-font-type-serif: "lora",
@@ -32,5 +33,6 @@
     $theme-body-font-family: "serif",
     $theme-body-font-size: "md",
     $theme-body-line-height: 5,
-    $theme-style-body-element: true,
+    $theme-style-body-element: true
+// Copy everything between the comments into your _uswds-theme.scss file or add a reference to your styles.scss file using an @forward statement.
 );

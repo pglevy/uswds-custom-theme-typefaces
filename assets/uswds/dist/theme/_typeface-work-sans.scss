@@ -3,7 +3,7 @@
     $theme-typeface-tokens: (
         work-sans: (
             display-name: "Work Sans",
-            cap-height: 330px,
+            cap-height: 330px
         )
     ),
     $theme-font-type-sans: "work-sans",
@@ -20,7 +20,7 @@
             600: 'WorkSans-SemiBold',
             700: 'WorkSans-Bold',
             800: 'WorkSans-ExtraBold',
-            900: 'WorkSans-Black',
+            900: 'WorkSans-Black'
         ),
         italic: (
             100: 'WorkSans-ThinItalic',
@@ -31,13 +31,13 @@
             600: 'WorkSans-SemiBoldItalic',
             700: 'WorkSans-BoldItalic',
             800: 'WorkSans-ExtraBoldItalic',
-            900: 'WorkSans-BlackItalic',
+            900: 'WorkSans-BlackItalic'
         ),
     ),
     $theme-generate-all-weights: true,
     $theme-body-font-family: "sans",
     $theme-body-font-size: "md",
     $theme-body-line-height: 5,
-    $theme-style-body-element: true,
+    $theme-style-body-element: true
 // Copy everything between the comments into your _uswds-theme.scss file or add a reference to your styles.scss file using an @forward statement.
 );

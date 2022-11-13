@@ -3,7 +3,7 @@
     $theme-typeface-tokens: (
         bitter: (
             display-name: "Bitter",
-            cap-height: 348px,
+            cap-height: 348px
         )
     ),
     $theme-font-type-serif: "bitter",
@@ -20,7 +20,7 @@
             600: 'Bitter-SemiBold',
             700: 'Bitter-Bold',
             800: 'Bitter-ExtraBold',
-            900: 'Bitter-Black',
+            900: 'Bitter-Black'
         ),
         italic: (
             100: 'Bitter-ThinItalic',
@@ -31,13 +31,13 @@
             600: 'Bitter-SemiBoldItalic',
             700: 'Bitter-BoldItalic',
             800: 'Bitter-ExtraBoldItalic',
-            900: 'Bitter-BlackItalic',
+            900: 'Bitter-BlackItalic'
         ),
     ),
     $theme-generate-all-weights: true,
     $theme-body-font-family: "serif",
     $theme-body-font-size: "md",
     $theme-body-line-height: 5,
-    $theme-style-body-element: true,
+    $theme-style-body-element: true
 // Copy everything between the comments into your _uswds-theme.scss file or add a reference to your styles.scss file using an @forward statement.
 );
