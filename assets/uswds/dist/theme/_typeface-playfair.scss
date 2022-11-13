@@ -1,8 +1,9 @@
 @use "uswds-core" with (
+// Copy everything between the comments into your _uswds-theme.scss file or add a reference to your styles.scss file using an @forward statement.
     $theme-typeface-tokens: (
         playfair: (
             display-name: "Playfair",
-            cap-height: 353px,
+            cap-height: 353px
         )
     ),
     $theme-font-type-serif: "playfair",
@@ -32,4 +33,5 @@
     $theme-body-font-size: "lg",
     $theme-body-line-height: 5,
     $theme-style-body-element: true
+// Copy everything between the comments into your _uswds-theme.scss file or add a reference to your styles.scss file using an @forward statement.
 );
