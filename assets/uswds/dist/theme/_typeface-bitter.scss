@@ -1,0 +1,43 @@
+@use "uswds-core" with (
+// Copy everything between the comments into your _uswds-theme.scss file or add a reference to your styles.scss file using an @forward statement.
+    $theme-typeface-tokens: (
+        bitter: (
+            display-name: "Bitter",
+            cap-height: 348px,
+        )
+    ),
+    $theme-font-type-serif: "bitter",
+    $theme-font-role-heading: "serif",
+    $theme-font-serif-custom-stack: '"Iowan Old Style", "Apple Garamond", Baskerville, "Times New Roman", "Droid Serif", Times, "Source Serif Pro", serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"',
+    $theme-font-serif-custom-src: (
+        dir: 'custom/bitter',
+        roman: (
+            100: 'Bitter-Thin',
+            200: 'Bitter-ExtraLight',
+            300: 'Bitter-Light',
+            400: 'Bitter-Regular',
+            500: 'Bitter-Medium',
+            600: 'Bitter-SemiBold',
+            700: 'Bitter-Bold',
+            800: 'Bitter-ExtraBold',
+            900: 'Bitter-Black',
+        ),
+        italic: (
+            100: 'Bitter-ThinItalic',
+            200: 'Bitter-ExtraLightItalic',
+            300: 'Bitter-LightItalic',
+            400: 'Bitter-Italic',
+            500: 'Bitter-MediumItalic',
+            600: 'Bitter-SemiBoldItalic',
+            700: 'Bitter-BoldItalic',
+            800: 'Bitter-ExtraBoldItalic',
+            900: 'Bitter-BlackItalic',
+        ),
+    ),
+    $theme-generate-all-weights: true,
+    $theme-body-font-family: "serif",
+    $theme-body-font-size: "md",
+    $theme-body-line-height: 5,
+    $theme-style-body-element: true,
+// Copy everything between the comments into your _uswds-theme.scss file or add a reference to your styles.scss file using an @forward statement.
+);
