@@ -44,6 +44,7 @@ Copy the files for the typefaces you want to use from `assets/uswds/dist/fonts/c
 Included:
 
 - Bitter
+- Lato
 - Libre Baskerville
 - Lora
 - Noto Sans
@@ -54,7 +55,6 @@ Included:
 Planned:
 
 - Inter
-- Lato
 - Noto Serif
 
 ## Helpful Tools
