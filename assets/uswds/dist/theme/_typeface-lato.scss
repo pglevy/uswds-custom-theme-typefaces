@@ -1,0 +1,42 @@
+@use "uswds-core" with (
+// Copy everything between the comments into your _uswds-theme.scss file or add a reference to your styles.scss file using an @forward statement.
+    $theme-typeface-tokens: (
+        lato: (
+            display-name: "Lato",
+            cap-height: 358px
+        )
+    ),
+    $theme-font-type-sans: "lato",
+    $theme-font-role-heading: "sans",
+    $theme-font-sans-custom-stack: '-apple-system, BlinkMacSystemFont, "avenir next", avenir, "segoe ui", "helvetica neue", helvetica, Cantarell, Ubuntu, roboto, work, arial, sans-serif',
+    $theme-font-sans-custom-src: (
+        dir: 'custom/lato',
+        roman: (
+            100: 'Lato-Thin',
+            300: 'Lato-Light',
+            400: 'Lato-Regular',
+            700: 'Lato-Bold',
+            900: 'Lato-Black'
+        ),
+        italic: (
+            100: 'Lato-ThinItalic',
+            300: 'Lato-LightItalic',
+            400: 'Lato-Italic',
+            700: 'Lato-BoldItalic',
+            900: 'Lato-BlackItalic'
+        ),
+    ),
+    $theme-font-weight-thin: 100,
+    $theme-font-weight-light: 300,
+    $theme-font-weight-normal: 400,
+    $theme-font-weight-medium: false,
+    $theme-font-weight-semibold: false,
+    $theme-font-weight-bold: 700,
+    $theme-font-weight-heavy: 900,
+    $theme-generate-all-weights: false,
+    $theme-body-font-family: "sans",
+    $theme-body-font-size: "md",
+    $theme-body-line-height: 5,
+    $theme-style-body-element: true
+// Copy everything between the comments into your _uswds-theme.scss file or add a reference to your styles.scss file using an @forward statement.
+);
