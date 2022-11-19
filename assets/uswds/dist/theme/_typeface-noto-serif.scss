@@ -1,0 +1,34 @@
+@use "uswds-core" with (
+// Copy everything between the comments into your _uswds-theme.scss file or add a reference to your styles.scss file using an @forward statement.
+    $theme-typeface-tokens: (
+        noto-serif: (
+            display-name: "Noto Serif",
+            cap-height: 357px
+        )
+    ),
+    $theme-font-type-serif: "noto-serif",
+    $theme-font-role-heading: "serif",
+    $theme-font-serif-custom-stack: '"Iowan Old Style", "Apple Garamond", Baskerville, "Times New Roman", "Droid Serif", Times, "Source Serif Pro", serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"',
+    $theme-font-serif-custom-src: (
+        dir: 'custom/noto-serif',
+        roman: (
+            400: 'NotoSerif-Regular',
+            700: 'NotoSerif-Bold'
+        ),
+        italic: (
+            400: 'NotoSerif-Italic',
+            700: 'NotoSerif-BoldItalic'
+        ),
+    ),
+    $theme-font-weight-thin: false,
+    $theme-font-weight-light: false,
+    $theme-font-weight-normal: 400,
+    $theme-font-weight-medium: false,
+    $theme-font-weight-semibold: false,
+    $theme-font-weight-bold: 700,
+    $theme-body-font-family: "serif",
+    $theme-body-font-size: "md",
+    $theme-body-line-height: 5,
+    $theme-style-body-element: true
+// Copy everything between the comments into your _uswds-theme.scss file or add a reference to your styles.scss file using an @forward statement.
+);
