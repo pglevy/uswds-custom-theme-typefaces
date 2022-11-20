@@ -13,6 +13,6 @@ in the form $setting: value,
 //    $setting: value
 //  );
 //
- @use "uswds-core" with (
-    $theme-font-type-sans: lato,
- );
+@use "uswds-core" with (
+    $theme-font-type-serif: noto-serif,
+);
