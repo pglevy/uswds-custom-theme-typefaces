@@ -44,18 +44,15 @@ Copy the files for the typefaces you want to use from `assets/uswds/dist/fonts/c
 Included:
 
 - Bitter
+- Inter
 - Lato
 - Libre Baskerville
 - Lora
 - Noto Sans
+- Noto Serif
 - Playfair Display
 - Poppins
 - Work Sans
-
-Planned:
-
-- Inter
-- Noto Serif
 
 ## Helpful Tools
 
