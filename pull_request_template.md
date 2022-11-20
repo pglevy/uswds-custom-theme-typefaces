@@ -8,7 +8,7 @@ For a pull request to a new typeface:
 - [ ] Commented below with screenshot of Sketch file with cap height measurement
 
 
-For other pull requesets:
+For other pull requests:
 - [ ] Existing issue: #
 - [ ] Description of change: 
 - [ ] Tested in Gitpod
