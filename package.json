@@ -29,6 +29,6 @@
     "@uswds/uswds": "^3.2.0"
   },
   "devDependencies": {
-    "@pglevy/compile": "^1.0.0"
+    "@pglevy/compile": "git://github.com/pglevy/uswds-compile.git"
   }
 }
